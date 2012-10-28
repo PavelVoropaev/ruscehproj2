@@ -1,0 +1,779 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F3E8E6B1-6D78-4B54-BD61-2286E088E71F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ruscehproj2</RootNamespace>
+    <AssemblyName>ruscehproj2</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\RSBN\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>2D542F567CAC36312D57C8FAE171D294997D8450</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>ruscehproj2_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bg001.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bg001.designer.cs">
+      <DependentUpon>bg001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bg002.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bg002.designer.cs">
+      <DependentUpon>bg002.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bg003.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bg003.designer.cs">
+      <DependentUpon>bg003.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bg004.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bg004.designer.cs">
+      <DependentUpon>bg004.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bg005.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bg005.designer.cs">
+      <DependentUpon>bg005.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bt006.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bt006.designer.cs">
+      <DependentUpon>bt006.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bk005.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bk005.designer.cs">
+      <DependentUpon>bk005.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bk006.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bk006.designer.cs">
+      <DependentUpon>bk006.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bk007.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bk007.designer.cs">
+      <DependentUpon>bk007.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bk008.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bk008.designer.cs">
+      <DependentUpon>bk008.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bm005.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bm005.Designer.cs">
+      <DependentUpon>bm005.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bp103.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bp103.Designer.cs">
+      <DependentUpon>bp103.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bp116.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bp116.Designer.cs">
+      <DependentUpon>bp116.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bp119.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bp119.Designer.cs">
+      <DependentUpon>bp119.cs</DependentUpon>
+    </Compile>
+    <Compile Include="br003.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="br003.Designer.cs">
+      <DependentUpon>br003.cs</DependentUpon>
+    </Compile>
+    <Compile Include="br004.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="br004.Designer.cs">
+      <DependentUpon>br004.cs</DependentUpon>
+    </Compile>
+    <Compile Include="br007.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="br007.Designer.cs">
+      <DependentUpon>br007.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bsh001.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bsh001.Designer.cs">
+      <DependentUpon>bsh001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bsh002.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bsh002.Designer.cs">
+      <DependentUpon>bsh002.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bsh003.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bsh003.Designer.cs">
+      <DependentUpon>bsh003.cs</DependentUpon>
+    </Compile>
+    <Compile Include="button.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="button.Designer.cs">
+      <DependentUpon>button.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bv001.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bv001.Designer.cs">
+      <DependentUpon>bv001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bv004.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bv004.Designer.cs">
+      <DependentUpon>bv004.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bv009.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bv009.Designer.cs">
+      <DependentUpon>bv009.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bv010.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bv010.Designer.cs">
+      <DependentUpon>bv010.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bv012.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bv012.Designer.cs">
+      <DependentUpon>bv012.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bya001.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bya001.Designer.cs">
+      <DependentUpon>bya001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="docsViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="docsViewer.Designer.cs">
+      <DependentUpon>docsViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="End.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="End.Designer.cs">
+      <DependentUpon>End.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="fuse.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="fuse.Designer.cs">
+      <DependentUpon>fuse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="generator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="generator.Designer.cs">
+      <DependentUpon>generator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="genericForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="genericForm.designer.cs">
+      <DependentUpon>genericForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ground.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ground.Designer.cs">
+      <DependentUpon>ground.cs</DependentUpon>
+    </Compile>
+    <Compile Include="helper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="helper.Designer.cs">
+      <DependentUpon>helper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IKO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IKO.Designer.cs">
+      <DependentUpon>IKO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IKO_control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IKO_control.Designer.cs">
+      <DependentUpon>IKO_control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mahovik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mahovik.Designer.cs">
+      <DependentUpon>mahovik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MAIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAIN.Designer.cs">
+      <DependentUpon>MAIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="npossw.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="npossw.Designer.cs">
+      <DependentUpon>npossw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Oscilloscope.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Oscilloscope.designer.cs">
+      <DependentUpon>Oscilloscope.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Perecluchatel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Perecluchatel.designer.cs">
+      <DependentUpon>Perecluchatel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="phazoukaz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="phazoukaz.Designer.cs">
+      <DependentUpon>phazoukaz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Picture_Box_for_Oscilloscope.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Picture_Box_for_Oscilloscope.designer.cs">
+      <DependentUpon>Picture_Box_for_Oscilloscope.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Potenzhiomert.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Potenzhiomert.designer.cs">
+      <DependentUpon>Potenzhiomert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="priborC4353.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="priborC4353.Designer.cs">
+      <DependentUpon>priborC4353.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="reg.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="reg.Designer.cs">
+      <DependentUpon>reg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="shp001.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="shp001.Designer.cs">
+      <DependentUpon>shp001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="shp002.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="shp002.Designer.cs">
+      <DependentUpon>shp002.cs</DependentUpon>
+    </Compile>
+    <Compile Include="socket.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="socket.Designer.cs">
+      <DependentUpon>socket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="splashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="splashScreen.Designer.cs">
+      <DependentUpon>splashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="targetControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="targetControl.Designer.cs">
+      <DependentUpon>targetControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tutc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tutc.Designer.cs">
+      <DependentUpon>tutc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tumb.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tumb.Designer.cs">
+      <DependentUpon>tumb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lump.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="lump.Designer.cs">
+      <DependentUpon>lump.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uvch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uvch.Designer.cs">
+      <DependentUpon>uvch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vi001.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vi001.Designer.cs">
+      <DependentUpon>vi001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Voltmetr.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Voltmetr.designer.cs">
+      <DependentUpon>Voltmetr.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="bg001.resx">
+      <DependentUpon>bg001.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bg002.resx">
+      <DependentUpon>bg002.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bg003.resx">
+      <DependentUpon>bg003.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bg004.resx">
+      <DependentUpon>bg004.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bg005.resx">
+      <DependentUpon>bg005.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bt006.resx">
+      <DependentUpon>bt006.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bk005.resx">
+      <DependentUpon>bk005.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bk006.resx">
+      <DependentUpon>bk006.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bk007.resx">
+      <DependentUpon>bk007.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bk008.resx">
+      <DependentUpon>bk008.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bm005.resx">
+      <DependentUpon>bm005.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bp103.resx">
+      <DependentUpon>bp103.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bp116.resx">
+      <DependentUpon>bp116.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bp119.resx">
+      <DependentUpon>bp119.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="br003.resx">
+      <DependentUpon>br003.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="br004.resx">
+      <DependentUpon>br004.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="br007.resx">
+      <DependentUpon>br007.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bsh001.resx">
+      <DependentUpon>bsh001.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bsh002.resx">
+      <DependentUpon>bsh002.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bsh003.resx">
+      <DependentUpon>bsh003.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="button.resx">
+      <DependentUpon>button.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bv001.resx">
+      <DependentUpon>bv001.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bv004.resx">
+      <DependentUpon>bv004.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bv009.resx">
+      <DependentUpon>bv009.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bv010.resx">
+      <DependentUpon>bv010.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bv012.resx">
+      <DependentUpon>bv012.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bya001.resx">
+      <DependentUpon>bya001.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="docsViewer.resx">
+      <DependentUpon>docsViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="End.resx">
+      <DependentUpon>End.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fuse.resx">
+      <DependentUpon>fuse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="generator.resx">
+      <DependentUpon>generator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="genericForm.resx">
+      <DependentUpon>genericForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ground.resx">
+      <DependentUpon>ground.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="helper.resx">
+      <DependentUpon>helper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IKO.resx">
+      <DependentUpon>IKO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IKO_control.resx">
+      <DependentUpon>IKO_control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lump.resx">
+      <DependentUpon>lump.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mahovik.resx">
+      <DependentUpon>mahovik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAIN.resx">
+      <DependentUpon>MAIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="npossw.resx">
+      <DependentUpon>npossw.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Oscilloscope.resx">
+      <DependentUpon>Oscilloscope.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Perecluchatel.resx">
+      <DependentUpon>Perecluchatel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="phazoukaz.resx">
+      <DependentUpon>phazoukaz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Picture_Box_for_Oscilloscope.resx">
+      <DependentUpon>Picture_Box_for_Oscilloscope.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Potenzhiomert.resx">
+      <DependentUpon>Potenzhiomert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="priborC4353.resx">
+      <DependentUpon>priborC4353.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="reg.resx">
+      <DependentUpon>reg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shp001.resx">
+      <DependentUpon>shp001.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shp002.resx">
+      <DependentUpon>shp002.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="socket.resx">
+      <DependentUpon>socket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="splashScreen.resx">
+      <DependentUpon>splashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="targetControl.resx">
+      <DependentUpon>targetControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tutc.resx">
+      <DependentUpon>tutc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tumb.resx">
+      <DependentUpon>tumb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uvch.resx">
+      <DependentUpon>uvch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vi001.resx">
+      <DependentUpon>vi001.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Voltmetr.resx">
+      <DependentUpon>Voltmetr.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="ruscehproj2_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>Клиентский профиль .NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tmb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tmb2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tmb3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tmb4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grlamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rdlamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ylamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newPics\bg001_clean.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newPics\bg002_clean.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newPics\bg004_clean.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newPics\bm005_clean.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newPics\bp119_clean.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newPics\BSH001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newPics\BSH002_clean.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newPics\BSH003_clean.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newPics\bv012_clean.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newPics\bya001_clean.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Потенциометр.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Вольтметр.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bv001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strelka.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Release\localRepOn.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\voltmetr1.BackgroundImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrowLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrowRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\potentBig.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nPos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Переключатель.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phazePointer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phazeArrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\400hz_internal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phazePointerWires.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mahovik.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg003E.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo.ico" />
+    <None Include="Resources\wire1.png" />
+    <None Include="Resources\ground.png" />
+    <None Include="Resources\groungWire.png" />
+    <None Include="Resources\vopros.png" />
+    <None Include="Resources\kanals.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

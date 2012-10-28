@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<helpdb>
+	<hlpEntry>
+		<id>1</id>
+		<hlpString>Включение РСБН-4Н в режиме МЕСТН.РЕМ.</hlpString>
+		<control>MAINOn</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>2</id>
+		<hlpString>Откройте щит ЩП-001.</hlpString>
+		<control>shp001On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>3</id>
+		<hlpString>Установите переключатель РОД РАБОТЫ на щите ЩП-001 в положение МЕСТН. РЕМ.</hlpString>
+		<control>shp001_mode2</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>4</id>
+		<hlpString>нажать кнопку ВКЛ. ПРЕОБРАЗОВАТЕЛЬ (I или II).3.	При этом загорится лампа ВКЛ. Преобразователя. После режим работы загорится лампа ГОТОВН. преобразователя.</hlpString>
+		<control>shp001_PrOn1</control>
+		<auxControl>shp001_PrOn2</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>5</id>
+		<hlpString>В нажатием тумблера УСТАНОВКА НАПРЯЖЕНИЯ ВПЛ соответствующего комплекта в нужную сторону согласно гравировке БОЛЬШЕ, МЕНЬШЕ, контролируя его по прибору СЕТЬ 400 Гц</hlpString>
+		<control>voltmetr400_40</control>
+		<auxControl>none</auxControl> 
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>6</id>
+		<hlpString>Включить автомат СЕТЬ 400Гц.</hlpString>
+		<control>shp001_pwr400</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>7</id>
+		<hlpString>Включить автомат обдува передатчиков AI, AII, ДI и ДII</hlpString>
+		<control>shp001_vent</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>8</id>
+		<hlpString>Откройте блок БП-103.</hlpString>
+		<control>bp103On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>9</id>
+		<hlpString>Включить выпрямитель 27 В при помощи автомата на блоке БП-103, при этом на лицевой панели блока БП-103 должны загореться  лампы НОРМА ПР2, НОРМА ПР1.</hlpString>
+		<control>bp103_tumbler1</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>10</id>
+		<hlpString>Откройте блок ЩП-001</hlpString>
+		<control>shp001On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>11</id>
+		<hlpString>Лампы КОНТРОЛЬ ИЗОЛЯЦИИ на ЩП-001 должны ярко светиться. Переключатель ЗАРЯД-РАЗРЯД поставить в положение РАЗРЯД.</hlpString>
+		<control>shp001_charge</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>12</id>
+		<hlpString>Ручкой переключателя напряжения зарядного устройства по приборы на ЩП-001 установить 26-27 В</hlpString>
+		<control>shp001_voltage27</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>13</id>
+		<hlpString>Включить систему обогрева и сушки аппаратуры.</hlpString>
+		<control>shp001_heat</control>
+		<auxControl>none</auxControl>		 
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>14</id>
+		<hlpString>Откройте блок БВ-001.</hlpString>
+		<control>bv001On</control>
+		<auxControl>none</auxControl>		 
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>15</id>
+		<hlpString>Включите один из комплектов.</hlpString>
+		<control>bv001_kit1on</control>
+		<auxControl>bv001_kit2on</auxControl>		 
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>16</id>
+		<hlpString>Откройте блок БВ-002.</hlpString>
+		<control>bv002On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>17</id>
+		<hlpString>Включите один из комплектов.</hlpString>
+		<control>bv002_kit1on</control>
+		<auxControl>bv002_kit2on</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>18</id>
+		<hlpString>Откройте щит вентиляции ЩП-002</hlpString>
+		<control>shp002On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>19</id>
+		<hlpString>Включите вентилятор централизованного обдува.</hlpString>
+		<control>shp002_vent</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>20</id>
+		<hlpString>Откройте блок БВ-010.</hlpString>
+		<control>bv002On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>21</id>
+		<hlpString>Включите САР скорости вращения азимутальной антенны путём нажатия кнопки включения 1 комплекта.</hlpString>
+		<control>bv010_on</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>22</id>
+		<hlpString>Откройте блок БШ-001.</hlpString>
+		<control>bsh001On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>23</id>
+		<hlpString>Нажмите кнопку ВКЛ.</hlpString>
+		<control>bsh001_vkl</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>24</id>
+		<hlpString>Откройте блок БШ-002.</hlpString>
+		<control>bsh002On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>25</id>
+		<hlpString>Нажмите кнопку ВКЛ.</hlpString>
+		<control>bsh002_vkl</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>26</id>
+		<hlpString>Откройте блок БШ-003.</hlpString>
+		<control>bsh003On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>27</id>
+		<hlpString>Нажмите кнопку ВКЛ.</hlpString>
+		<control>bsh003_vkl</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>28</id>
+		<hlpString>Откройте блок БВ-009.</hlpString>
+		<control>bv009On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>29</id>
+		<hlpString>Включите накалы.</hlpString>
+		<control>bv009_dalOn</control>
+		<auxControl>bv009_azOn</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>30</id>
+		<hlpString>Откройте блок БМ-005.</hlpString>
+		<control>bm005On</control>
+		<auxControl>none</auxControl>	 
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>31</id>
+		<hlpString>Проконтролируйте напряжение -150В</hlpString>
+		<control>bv005_voltage1</control>
+		<auxControl>none</auxControl> 
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>32</id>
+		<hlpString>Откройте блок БП-116.</hlpString>
+		<control>bp116On</control>
+		<auxControl>none</auxControl>	 
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>33</id>
+		<hlpString>Проконтролируйте напряжение +300В.</hlpString>
+		<control>bp116On_voltage</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>34</id>
+		<hlpString>Откройте блок БВ-009.</hlpString>
+		<control>bv009On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>35</id>
+		<hlpString>Нажмите кнопку АНОД.ВКЛ. Должна загореться лампочка БЛОКИР.</hlpString>
+		<control>bv009_anod1</control>
+		<auxControl>bv009_anod2</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>36</id>
+		<hlpString>Откройте блок БР-004.</hlpString>
+		<control>br004On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>37</id>
+		<hlpString>Нажмите кнопку ВКЛ.</hlpString>
+		<control>br004_vkl</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>38</id>
+		<hlpString>Откройте блок БР-003(I).</hlpString>
+		<control>br0031On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>39</id>
+		<hlpString>Нажмите кнопку ВКЛ.</hlpString>
+		<control>br0031_vkl</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>40</id>
+		<hlpString>Откройте блок БР-003(II).</hlpString>
+		<control>br0032On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>41</id>
+		<hlpString>Нажмите кнопку ВКЛ.</hlpString>
+		<control>br0032_vkl</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>42</id>
+		<hlpString>Откройте блок БК-006.</hlpString>
+		<control>bk006On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>43</id>
+		<hlpString>Нажмите кнопку ВКЛ.</hlpString>
+		<control>bk006_vkl</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>44</id>
+		<hlpString>Откройте блок БК-007.</hlpString>
+		<control>bk007On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>45</id>
+		<hlpString>Нажмите кнопку ВКЛ.</hlpString>
+		<control>bk007_vkl</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>46</id>
+		<hlpString>Откройте блок БВ-012.</hlpString>
+		<control>bv012On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>47</id>
+		<hlpString>Нажмите кнопку ВКЛ 14 кВ.</hlpString>
+		<control>bv012_kit1on</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>48</id>
+		<hlpString>Откройте блок БИ-007.</hlpString>
+		<control>IKOOn</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>49</id>
+		<hlpString>Проконтролируйте работу индикатора.</hlpString>
+		<control>none</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>50</id>
+		<hlpString>Откройте блок ТУ-ТС.</hlpString>
+		<control>tutcOn</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>51</id>
+		<hlpString>Провеить включение и выключение ламп заграждения при помощи тумблера</hlpString>
+		<control>tutc_fence</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>52</id>
+		<hlpString>Выключение. Откройте блок БВ-009</hlpString>
+		<control>bv009_On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>53</id>
+		<hlpString>Нажмите кнопку АНОД. ОТКЛ.</hlpString>
+		<control>bv009_anod1Off</control>
+		<auxControl>bv009_anod2Off</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>54</id>
+		<hlpString>Откройте блок БР-004</hlpString>
+		<control>br004On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>55</id>
+		<hlpString>Нажмите кнопку ОТКЛ.</hlpString>
+		<control>br004_otkl</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>56</id>
+		<hlpString>Откройте блок БВ-012</hlpString>
+		<control>bv012On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>57</id>
+		<hlpString>Нажмите кнопку ОТКЛ. 14 кВ</hlpString>
+		<control>bv012_otkl</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	
+	<hlpEntry>
+		<id>58</id>
+		<hlpString>Откройте блок БШ-001.</hlpString>
+		<control>bsh001On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>59</id>
+		<hlpString>Нажмите кнопку ОТКЛ.</hlpString>
+		<control>bsh001_otkl</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>60</id>
+		<hlpString>Откройте блок БШ-002.</hlpString>
+		<control>bsh002On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>61</id>
+		<hlpString>Нажмите кнопку ОТКЛ.</hlpString>
+		<control>bsh002_otkl</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>62</id>
+		<hlpString>Откройте блок БШ-003.</hlpString>
+		<control>bsh003On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>63</id>
+		<hlpString>Нажмите кнопку ОТКЛ.</hlpString>
+		<control>none</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>64</id>
+		<hlpString>Откройте блок БВ-010.</hlpString>
+		<control>bv010On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>65</id>
+		<hlpString>Нажмите кнопку ОТКЛ.</hlpString>
+		<control>bv010_otkl</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>66</id>
+		<hlpString>Откройте блок БР-003(I).</hlpString>
+		<control>br0031On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>67</id>
+		<hlpString>Нажмите кнопку ОТКЛ.</hlpString>
+		<control>br0031_otkl</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>68</id>
+		<hlpString>Откройте блок БР-003(II).</hlpString>
+		<control>br0032On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>69</id>
+		<hlpString>Нажмите кнопку ОТКЛ.</hlpString>
+		<control>br0032_otkl</control>
+		<auxControl>none</auxControl> 
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>70</id>
+		<hlpString>Откройте блок БВ-012.</hlpString>
+		<control>bv012On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+		
+	<hlpEntry>
+		<id>71</id>
+		<hlpString>Нажмите кнопку ОТКЛ.</hlpString>
+		<control>bv012_otkl</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>72</id>
+		<hlpString>Откройте блок БВ-009.</hlpString>
+		<control>bv009On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>73</id>
+		<hlpString>отключите накалы</hlpString>
+		<control>bv009_azOff</control>
+		<auxControl>bv009_dalOff</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>74</id>
+		<hlpString>Откройте блок БВ-001.</hlpString>
+		<control>bv001On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>75</id>
+		<hlpString>Нажмите кнопку ОТКЛ.</hlpString>
+		<control>bv001_kit1off</control>
+		<auxControl>bv001_kit1off</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>76</id>
+		<hlpString>Откройте блок БВ-002.</hlpString>
+		<control>bv002On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>77</id>
+		<hlpString>Нажмите кнопку ОТКЛ.</hlpString>
+		<control>bv002_kit1off</control>
+		<auxControl>bv002_kit2off</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>78</id>
+		<hlpString>Спустя 1 - 3 мин откройте блок ЩП-001</hlpString>
+		<control>shp001On</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>79</id>
+		<hlpString>Нажмите кнопку ОТКЛ. ПРЕОБРАЗОВАТЕЛЬ.</hlpString>
+		<control>shp001_PrOff</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	
+<!--Универсальные сообщения используются по мере надобности-->	
+	<hlpEntry>
+		<id>200</id>
+		<hlpString>Здесь всё. Закрывйате блок.</hlpString>
+		<control>none</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>201</id>
+		<hlpString>Нажмите кнопку ВКЛ.</hlpString>
+		<control>none</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+	
+	<hlpEntry>
+		<id>202</id>
+		<hlpString>Нажмите кнопку ВКЛ.КОНТРОЛЯ.</hlpString>
+		<control>none</control>
+		<auxControl>none</auxControl>
+	</hlpEntry>
+</helpdb>
